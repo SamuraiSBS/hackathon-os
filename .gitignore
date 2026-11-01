@@ -1,0 +1,32 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+secrets/
+
+# Local event work and private maintainer artifacts
+/events/
+/outputs/
+/design-catalog/
+/docs/design-catalog/
+/docs/superpowers/
+/scripts/New-Hackathon.ps1
+.pnpm-store/
+
+# Common generated files
+node_modules/
+.venv/
+venv/
+__pycache__/
+dist/
+dist-*/
+build/
+coverage/
+playwright-report/
+test-results/
+test-results-*/
+.pytest_cache/
+.next/
+.turbo/
+.DS_Store
+Thumbs.db
