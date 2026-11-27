@@ -1,0 +1,6 @@
+interface:
+  display_name: "Улучшай проект"
+  short_description: "Аудит и безопасное улучшение проекта"
+  default_prompt: "Используй $improve-project, чтобы провести аудит проекта и реализовать подтверждённые обратимые улучшения."
+policy:
+  allow_implicit_invocation: true

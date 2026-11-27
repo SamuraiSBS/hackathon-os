@@ -35,6 +35,7 @@
 ## Рабочие документы
 
 - Основной цикл: docs/WORKFLOW.md.
+- Повторный многопрофильный аудит и улучшение готовой кодовой базы: docs/PROJECT-IMPROVEMENT-LOOP.md и `.agents/skills/improve-project/SKILL.md`. Запускай этот цикл по явному запросу «Улучшай проект», а не перед каждой задачей хакатона.
 - Продуктовая логика и простые интерфейсы: docs/PRODUCT-QUALITY.md.
 - Исследование и выбор технологий: docs/RESEARCH-AND-TECH-CHOICE.md.
 - Автономная реализация и субагенты: docs/EXECUTION-AND-DELEGATION.md.
