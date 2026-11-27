@@ -8,6 +8,8 @@ Selected Superpowers skills are included under `.agents/skills/` and pinned to t
 
 The included skill names are `using-superpowers`, `brainstorming`, `writing-plans`, `dispatching-parallel-agents`, `subagent-driven-development`, `systematic-debugging`, `receiving-code-review`, `requesting-code-review`, and `verification-before-completion`. They provide stage-specific workflows; use the ones that fit the current task and keep delegated tasks bounded by the rules in `docs/EXECUTION-AND-DELEGATION.md`.
 
+The project also includes the portable `improve-project` skill and project-scoped Codex/OpenCode agent profiles. It works from `.agents/skills/`; only agent registration and fresh-session launch vary by runtime. See `docs/PROJECT-IMPROVEMENT-LOOP.md`.
+
 ## Optional profile tools
 
 Plugins and their authentication belong to each user's Codex profile. Check the active session before relying on a connector; setup commands and capabilities can change, so use each provider's current official installation instructions.

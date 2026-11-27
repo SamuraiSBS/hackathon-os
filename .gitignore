@@ -7,6 +7,7 @@ secrets/
 # Local event work and private maintainer artifacts
 /events/
 /outputs/
+/.improve/
 /design-catalog/
 /docs/design-catalog/
 /docs/superpowers/
